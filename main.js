@@ -30,18 +30,32 @@ function popRandomArray() {
 popRandomArray();
 
 
-function getRandomNumFromUser() {
+// function getRandomNumFromUser() {
 
-  var userNum = +prompt();
-  var rnd = Math.floor(Math.random() * 10)
-  if (userNum == rnd) {
-    alert("Good Job!");
-  }
-  else {
-    alert("Wrong");
-  }
+//   var userNum = +prompt();
+//   var rnd = Math.floor(Math.random() * 10)
+//   if (userNum == rnd) {
+//     alert("Good Job!");
+//   }
+//   else {
+//     alert("Wrong");
+//   }
+
+// }
+
+// var sum = getRandomNumFromUser();
+// console.log(sum);
+
+
+
+function returnNum() {
+  var userNum = +prompt("Enter a number:");
+  var rnd = Math.floor(Math.random() * 10);
+  return Math.max(userNum, rnd);
 
 }
 
-var sum = getRandomNumFromUser();
-console.log(sum);
+returnNum();
+
+
+
