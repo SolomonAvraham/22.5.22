@@ -48,14 +48,12 @@ popRandomArray();
 
 
 
-function returnNum() {
-  var userNum = +prompt("Enter a number:");
-  var rnd = Math.floor(Math.random() * 10);
-  return Math.max(userNum, rnd);
+// function returnNum() {
+//   var userNum = +prompt("Enter a number:");
+//   var rnd = Math.floor(Math.random() * 10);
+//   return Math.max(userNum, rnd);
 
-}
+// }
 
-returnNum();
-
-
+// returnNum();
 
